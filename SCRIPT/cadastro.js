@@ -16,7 +16,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
       title: "Cadastro realizado com sucesso!",
       icon: "success",
     }).then(function() {
-      window.location.href = "home.html";
+      window.location.href = "index.html";
     });
     // Redireciona para a página desejada
   }

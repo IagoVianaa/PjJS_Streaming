@@ -1,24 +1,29 @@
-document.addEventListener('click', e => {
-    let setas
-    if (e.target.matches('.setas')){
-        setas = e.target
-    }else{
-        setas = e.target.closest('.setas')
-    }
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    freeMode: {
+      enabled: true,
+      sticky: true,
+    },
 
-    if(setas != null) clickSeta(setas)
-})
-
-
-function clickSeta(setas){
-    const slider = setas.closest('.home-slider').querySelector('.slider')
-    const sliderIndex = parseInt(getComputedStyle(slider).getPropertyValue('--slider-index'))
-
-    if (setas.classList.contains('seta-esq')){
-        slider.style.setProperty('--slider-index', sliderIndex - 1)
-    }
-
-    if (setas.classList.contains('seta-dir')){
-        slider.style.setProperty('--slider-index', sliderIndex + 1)
-    }
-}
+    autoplay: {
+        delay: 5000,
+      },
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });

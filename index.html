@@ -5,58 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../STYLE/main.css">
+    <link rel="stylesheet" href="STYLE/login-cadastro.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <title>Register Page</title>
+    <title>Login Page</title>
 </head>
 
 <body>
     <div class="conteiner">
         <div class="title">
-            <h1>user register</h1>
+            <h1>user login</h1>
         </div>
 
-        <form method="POST" id="myForm">
-            <label for="Email">Email</label>
+        <form method="post" id="myForm">
+            <label for="email">Username or Email</label>
 
             <div class="input-fields">
-                <input type="email" name="Email" placeholder="Enter your email" required>
+                <input type="email" name="Email" placeholder="Enter your email or username" required>
                 <span class="material-symbols-outlined">
                     person</span>
             </div>
 
-            <label for="username">Username</label>
-
+            <label for="password">Password</label>
             <div class="input-fields">
-                <input type="text" name="username" placeholder="Enter your username" required>
-                <span class="material-symbols-outlined">
-                    person</span>
-            </div>
-
-            <label for="first-password">Password</label>
-            <div class="input-fields">
-                <input type="password" name="first-password" placeholder="Enter your password" required>
+                <input type="password" name="password" placeholder="Enter your password" required>
                 <span class="material-symbols-outlined">
                     lock
                 </span>
             </div>
 
-            <label for="second-password">Confirm your Password</label>
-            <div class="input-fields">
-                <input type="password" name="second-password" placeholder="Enter your password again" required>
-                <span class="material-symbols-outlined">
-                    lock
-                </span>
+            <div class="form-other">
+                <div class="lembrar">
+                    <input type="checkbox">
+                    Remember
+                </div>
+                <div class="forget">
+                    <a href="#">Forget Password?</a>
+                </div>
             </div>
+
 
             <div class="botao">
-                <button class="botaoRegistrar" type="submit">Register</button>
+                <button type="submit">Login</button>
             </div>
 
         </form>
 
-        <div class="or">Or Register Using</div>
+        <div class="create-account">Don´t have an account?<a href="cadastro.html"> Sign up now</a> </div>
+        <div class="or">Or Sign Up Using</div>
 
         <div class="links-social-container">
 
@@ -97,8 +93,7 @@
         </div>
     </div>
 
-    <script src="/SCRIPT/cadastro.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="SCRIPT/login.js"></script>
 </body>
 
 </html>
