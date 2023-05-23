@@ -51,15 +51,14 @@ movies.then(data => {
                 </button>
               </div>
               <div class="modal-body">
+                <p>${movie.overview}</p>
                 <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
                 </div>
-                <p>${movie.overview}</p>
               </div>
             </div>
           </div>
-        </div>
-      `;
+        </div>`;
 
           // Adicionar o elemento do pop-up à página
           document.body.insertAdjacentHTML('beforeend', modal);

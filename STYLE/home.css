@@ -140,5 +140,9 @@ section{
 }
 
 .swiper {
+    height: 2%;
+  }
+
+  .swiper-slide img {
     width: 100%;
   }
