@@ -13,9 +13,6 @@ var swiper = new Swiper(".mySwiper", {
   autoplay: {
     delay: 5000
   },
-<<<<<<< HEAD
-});
-=======
 });
 
 const apiKey = 'd464a5d67c9f591617622782ed3f4d87';
@@ -81,4 +78,3 @@ async function main() {
 main();
 
 
->>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af

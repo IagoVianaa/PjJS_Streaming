@@ -1,28 +1,3 @@
-<<<<<<< HEAD
-document.getElementById("myForm").addEventListener("submit", function(event) {
-  let firstPassword = document.querySelector('input[name=first-password]').value;
-  let secondPassword = document.querySelector('input[name=second-password]').value;
-
-  if (firstPassword != secondPassword) {
-    // Impede o envio padrão do formulário
-    event.preventDefault();
-    swal({
-      title: "Senhas não são iguais!",
-      icon: "error",
-    });
-  } else {
-    // Impede o envio padrão do formulário
-    event.preventDefault();
-    swal({
-      title: "Cadastro realizado com sucesso!",
-      icon: "success",
-    }).then(function() {
-      window.location.href = "index.html";
-    });
-    // Redireciona para a página desejada
-  }
-});
-=======
 const form = document.getElementById('form');
 const fields = document.querySelectorAll('.required');
 const spans = document.querySelectorAll('.span-required');
@@ -119,4 +94,3 @@ function sendToHome() {
 }
 
 
->>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af

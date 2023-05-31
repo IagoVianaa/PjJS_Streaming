@@ -13,11 +13,7 @@ body{
     min-height: 100vh;
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-    background: radial-gradient(circle at 10% 20%, rgb(255, 19, 120) 0%, rgb(0, 0, 0) 90.5%);
-=======
     background-color: #0f1015;
->>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     align-items: center;
 }
 .conteiner{
@@ -31,12 +27,6 @@ body{
 
 .title{
     margin-bottom: 2rem;
-<<<<<<< HEAD
-    text-transform: uppercase;
-    text-align: center;
-
-}
-=======
     text-align: center;
 
 }
@@ -57,18 +47,13 @@ body{
     display: none;    
     
 }
->>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
 
 
 input[type="text"],
 input[type="email"],
 input[type="password"]{
     width: 100%;
-<<<<<<< HEAD
-    border: 2px solid black;
-=======
     border: 1.5px solid #001;
->>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     outline: none;
     border-radius: 100px;
     padding: 1rem 1.5rem;
@@ -119,8 +104,6 @@ a{
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
-=======
 .span-required{
     color: #FF186C;
     display: none;
@@ -130,7 +113,6 @@ a{
     left: 12px;
 }
 
->>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
 .botao button{
     width: 100%;
     background: #FF186C;
