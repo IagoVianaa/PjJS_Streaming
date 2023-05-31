@@ -20,12 +20,21 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    margin: 30px 100px 0px;
+    transition: all .50s ease;
+}
 
+.pricing-card-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: transparent;
   padding: 28px 12%;
+  margin: 0;
   transition: all .50s ease;
 }
 
