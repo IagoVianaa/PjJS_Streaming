@@ -28,6 +28,20 @@ header{
     transition: all .50s ease;
 }
 
+<<<<<<< HEAD
+=======
+#movies{
+    max-width: 1380px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
 
 .logo .logo-text{
     color: #FF186C;
@@ -61,9 +75,13 @@ header{
     color: #FF186C;
 }
 
+<<<<<<< HEAD
 .navbar a.active{
     color: #FF186C;
 }
+=======
+
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
 
 
 main {
@@ -104,6 +122,14 @@ h1 {
     gap: 30px;
 }
 
+<<<<<<< HEAD
+=======
+h1{
+    padding: 28px 12%;
+
+}
+
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
 
 
 

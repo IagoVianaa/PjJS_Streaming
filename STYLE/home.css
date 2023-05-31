@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@200;300;500;600&display=swap');
 
+<<<<<<< HEAD
 *{
+=======
+* {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,6 +13,7 @@
 
 }
 
+<<<<<<< HEAD
 body{
     font-family: 'Poppins', 'sans-serif';
     min-height: 100vh;  
@@ -16,6 +21,15 @@ body{
 }
 
 header{
+=======
+body {
+    font-family: 'Poppins', 'sans-serif';
+    min-height: 100vh;
+    background-color: #0f1015;
+}
+
+header {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
 
     display: flex;
     align-items: center;
@@ -25,26 +39,46 @@ header{
     transition: all .50s ease;
 }
 
+<<<<<<< HEAD
 .logo .logo-text{
     color: #FF186C;
 }
 
 .logo{
+=======
+.logo .logo-text {
+    color: #FF186C;
+}
+
+.logo {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     display: flex;
     align-items: center;
 }
 
+<<<<<<< HEAD
 .logo span{
+=======
+.logo span {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     color: #fff;
     font-size: 1.8rem;
     font-weight: 600;
 }
 
+<<<<<<< HEAD
 .navbar{
     display: flex;
 }
 
 .navbar a{
+=======
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     color: #fff;
     font-size: 1.1rem;
     font-weight: 500;
@@ -54,6 +88,7 @@ header{
 
 }
 
+<<<<<<< HEAD
 .navbar a:hover{
     color: #FF186C;
 }
@@ -67,6 +102,19 @@ section{
 }
 
 .home{
+=======
+.navbar a:hover {
+    color: #FF186C;
+}
+
+
+
+section {
+    padding: 28px 12%;
+}
+
+.home {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     width: 100%;
     min-height: 45vh;
     display: grid;
@@ -75,6 +123,7 @@ section{
     align-items: center;
 }
 
+<<<<<<< HEAD
 .home-img img{
     max-width: 100%;
     width: 550px;
@@ -83,17 +132,36 @@ section{
 }
 
 .home-text h2{
+=======
+.home-img img {
+    max-width: 100%;
+    width: 650px;
+    height: auto;
+    margin-left: 80px;
+}
+
+.home-text h2 {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     font-size: 2.5rem;
     color: #fff;
 }
 
+<<<<<<< HEAD
 .home-text h5{
+=======
+.home-text h5 {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     color: #fff;
     margin-bottom: 15px;
     font-weight: 400;
 }
 
+<<<<<<< HEAD
 .btn,.btn2{
+=======
+.btn,
+.btn2 {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     display: inline-block;
     padding: 10px 20px;
     background: #FF186C;
@@ -103,11 +171,19 @@ section{
     margin-top: 15px;
 }
 
+<<<<<<< HEAD
 .btn2{
     margin-left: 25px;
 }
 
 .btn:hover{
+=======
+.btn2 {
+    margin-left: 25px;
+}
+
+.btn:hover {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     transform: scale(1.2) translateY(10px);
     transition: .4s;
 
@@ -115,7 +191,11 @@ section{
     color: #FF186C;
 }
 
+<<<<<<< HEAD
 .btn2:hover{
+=======
+.btn2:hover {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     transform: scale(1.2) translateY(10px);
     transition: .4s;
 
@@ -124,13 +204,21 @@ section{
 }
 
 
+<<<<<<< HEAD
 .header{
+=======
+.header {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     display: flex;
     justify-content: space-between;
     padding: 0 5rem;
 }
 
+<<<<<<< HEAD
 .title{
+=======
+.title {
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
     font-size: 1.5rem;
     font-weight: 350;
     margin: 0;
@@ -140,9 +228,24 @@ section{
 }
 
 .swiper {
+<<<<<<< HEAD
     height: 2%;
   }
 
   .swiper-slide img {
     width: 100%;
   }
+=======
+    width: 75%;
+    margin-top: 10px;
+}
+
+.swiper-slide img {
+    width: 24.7%;
+}
+
+
+#movies{
+    display: flex;
+}
+>>>>>>> 2983bd885b5455b3b5786e9b2135166c365a83af
