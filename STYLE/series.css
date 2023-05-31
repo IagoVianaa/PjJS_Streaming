@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@200;300;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', 'sans-serif';
+    min-height: 100vh;  
+    background-color: #0f1015;
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+
+
+.logo .logo-text{
+    color: #FF186C;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo span{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0 30px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover{
+    color: #FF186C;
+}
+
+.navbar a.active{
+    color: #FF186C;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 80px 100px;
+    gap: 100px 20px;
+}
+
+h1 {
+    color: white;
+}
+
+
+.conteudo-filme {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.conteudo-filme img {
+    transition: all 0.5s;
+}
+
+.conteudo-filme img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: black;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+#series{
+    max-width: 1380px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+h1{
+    padding: 28px 12%;
+
+}
+
+
+
+
+
