@@ -57,6 +57,7 @@ header{
 
 .navbar{
     display: flex;
+    margin-bottom: 0rem;
 }
 
 .navbar a{
