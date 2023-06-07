@@ -13,6 +13,31 @@
 
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Estiliza o rastreador da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Fundo transparente */
+  border-radius: 8px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(88, 88, 88, 0.5);
+  border-radius: 8px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(104, 104, 104, 0.7); /* Cor do polegar ao passar o mouse */
+}
+
+
 body {
   font-family: 'Poppins', 'sans-serif';
   min-height: 100vh;

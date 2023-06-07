@@ -1,18 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@200;300;500;600&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-
 }
 
-body {
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Estiliza o rastreador da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: transparent; /* Fundo transparente */
+    border-radius: 8px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(88, 88, 88, 0.5);
+    border-radius: 8px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(104, 104, 104, 0.7); /* Cor do polegar ao passar o mouse */
+}
+
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+body{
     font-family: 'Poppins', 'sans-serif';
-    min-height: 100vh;
+    min-height: 100vh;  
     background-color: #0f1015;
+    color: white;
+    line-height: normal;
 }
 
 header {
@@ -24,26 +54,28 @@ header {
     transition: all .50s ease;
 }
 
-.logo .logo-text {
+.logo .logo-text{
     color: #FF186C;
 }
 
-.logo {
+.logo{
     display: flex;
     align-items: center;
 }
 
-.logo span {
+.logo span{
     color: #fff;
     font-size: 1.8rem;
     font-weight: 600;
 }
 
-.navbar {
+.navbar{
     display: flex;
+    margin-bottom: 0rem;
+    padding: 0rem;
 }
 
-.navbar a {
+.navbar a{
     color: #fff;
     font-size: 1.1rem;
     font-weight: 500;
@@ -52,7 +84,7 @@ header {
     transition: all .50s ease;
 }
 
-.navbar a:hover {
+.navbar a:hover{
     color: #FF186C;
 }
 
@@ -96,8 +128,6 @@ section {
     background: #FF186C;
     color: #fff;
     border-radius: 0.5rem;
-
-    margin-top: 15px;
 }
 
 .btn2 {
@@ -136,16 +166,52 @@ section {
 
 }
 
-.swiper {
-    width: 75%;
-    margin-top: 10px;
+.row {
+    margin-right: 0;
 }
 
-.swiper-slide img {
-    width: 24.7%;
+.card {
+    background-color: transparent;
 }
 
+.card-img img {
+    width: 100%;
+}
 
-#movies{
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
     display: flex;
 }
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+
+
+
